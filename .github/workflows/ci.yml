@@ -10,16 +10,24 @@
 
 name: CI
 
-on:
-  workflow_dispatch:        # TODO reto 1: reemplazar por push a main y pull_request
+on:                        # disparadores
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
   pruebas:
     name: Pruebas
     runs-on: ubuntu-latest
     steps:
-      - name: Descargar el código
-        uses: actions/checkout@v7
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+         python-version: "3.12"
+      - run: pip install -r requirements-dev.txt
+      - run: pytest -v
+
 
       # TODO reto 1: instalar Python 3.12 (actions/setup-python@v7)
       # TODO reto 1: instalar las dependencias
