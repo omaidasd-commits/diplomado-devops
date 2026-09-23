@@ -150,7 +150,7 @@ En `data/evaluacion.csv` hay 16 solicitudes con su categoría correcta. El model
 
 ---
 
-## Reto 5 · Que nadie pueda integrar en rojo (20 min)
+## Reto 5 · Que nadie pueda integrar en rojo (15 min)
 
 Hasta aquí cualquiera puede hacer commit directo a `main` aunque el pipeline esté fallando. Ciérrenlo.
 
