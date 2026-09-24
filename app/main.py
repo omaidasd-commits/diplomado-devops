@@ -1,4 +1,5 @@
 """API mínima del clasificador de solicitudes de "Trámites al Día"."""
+
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
