@@ -5,6 +5,8 @@ Indra · UPTC · Tec de Monterrey · ProBoyacá
 
 Este repositorio **no trae el pipeline hecho**. Trae la aplicación, sus pruebas y una lista de retos. El trabajo del equipo es construir el pipeline que la protege.
 
+> **Sesión 2 (pipeline de CD):** los retos 6 a 9 están en [`sesion2/README.md`](sesion2/README.md).
+
 Se trabaja **en equipos de 3 o 4 personas** y **todo se hace desde el navegador**: no hay que instalar Git, ni Python, ni nada.
 
 ---
